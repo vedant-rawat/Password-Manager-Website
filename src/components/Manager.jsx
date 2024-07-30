@@ -125,7 +125,7 @@ const Manager = (props) => {
                       <td className={`border ${props.mode=='dark'?'border-white':'border-black'} px-4 py-2`}>
                         <div className="flex justify-between items-center gap-4">
                           {p.name}
-                          <span className="cursor-pointer flex justify-center items-center" onClick={()=>notify(p.data.name)}>
+                          <span className="cursor-pointer flex justify-center items-center" onClick={()=>notify(p.name)}>
                             <lord-icon
                               src="https://cdn.lordicon.com/lyrrgrsl.json"
                               trigger="hover"
@@ -138,7 +138,7 @@ const Manager = (props) => {
                       <td className={`border ${props.mode=='dark'?'border-white':'border-black'} px-4 py-2`}>
                         <div className="flex justify-between items-center gap-4">
                           {p.password}
-                          <span className="cursor-pointer flex justify-center items-center" onClick={()=>notify(p.data.password)}>
+                          <span className="cursor-pointer flex justify-center items-center" onClick={()=>notify(p.password)}>
                             <lord-icon
                               src="https://cdn.lordicon.com/lyrrgrsl.json"
                               trigger="hover"
